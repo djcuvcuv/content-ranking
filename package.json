@@ -1,0 +1,31 @@
+{
+  "name": "content-ranking",
+  "version": "1.0.0",
+  "description": "returns top 1000 pieces of content from twitter and reddit combined",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djcuvcuv/content-ranking.git"
+  },
+  "keywords": [
+    "rank",
+    "news",
+    "twitter",
+    "reddit",
+    "feed"
+  ],
+  "author": "Christopher Covney <djcuvcuv@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "array-interweave": "^1.0.0",
+    "async": "^2.6.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "twitter": "^1.7.1"
+  }
+}
